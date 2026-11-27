@@ -9,5 +9,5 @@ def file(data):
     df['variance'] = np.round(np.square((df['b']-df['a'])/6), 2)
     return df
 
-df=file('multiply csv/PERT-by-rows/pert data.xlsx')
-df.to_excel("output.xlsx")
+df=file() #input file to solve
+df.to_excel() #input the name of the file to export
